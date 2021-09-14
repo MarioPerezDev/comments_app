@@ -5,8 +5,8 @@ function Comments(props) {
 
     return (
         <div className="comments">
-            <button>Añadir comentario</button>
-           <p>Comentarios</p>
+            <button className="addButton">Añadir comentario</button>
+           <p style={{textAlign: "center"}}>Comentarios</p>
         </div>
     );
   }

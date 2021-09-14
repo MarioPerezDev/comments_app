@@ -6,12 +6,13 @@ import Quotes from '../Quotes'
 
 
 function AllQuotes(props) {
+
     return (
         <React.Fragment>
             <Header></Header>
             <Container>
                 <Sorter></Sorter>
-                <Quotes></Quotes>
+                <Quotes quotes={props.quotes}></Quotes>
             </Container>
         </React.Fragment>
     )

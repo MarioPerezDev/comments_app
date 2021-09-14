@@ -8,10 +8,10 @@ function Quote(props) {
         <div className="quote">
             <div className="quote-left">
                 <p>{props.author}</p>
-                <p>{props.text}</p>
+                <p>{props.quote}</p>
             </div>
             <div className="quote-right">
-                <Link to={`/quotes/${props.id}`}> <button className="addButton">Ver Cita</button></Link>
+                <Link to={`/quotes/${props.id}`}> <button className="btn-add-cita">Ver Cita</button></Link>
                
             </div>           
         </div>
